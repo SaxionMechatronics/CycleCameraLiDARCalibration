@@ -1,0 +1,21 @@
+name: jax_cuda12_scipy
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.10.12
+  - cuda-runtime=12.1
+  - pip
+  - pip:
+      - "jax[cuda12]"
+      - jaxlie==1.5.0
+      - numpy>=1.23.5,<2.0
+      - scipy==1.15.3
+      - opencv-python==4.11.0.86
+      - ipykernel==6.29.5
+      - open3d==0.18.0
+      - matplotlib==3.9.2
+      - pandas>=1.5.3,<2.2.2
+      - PyQt5==5.15.10
+      - PySide2==5.15.2.1
+      
